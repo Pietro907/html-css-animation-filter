@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.ex-1-square{
+.ex-1-square:hover {
     /* animation: name duration timing-function delay iteration-count direction fill-mode;
  */
     animation-name: pieno;
@@ -16,6 +16,24 @@
         border: 1px solid red;
     }
     to {
+        background: red;
+    }
+}
+
+.ex-2-square {
+    animation-name: rettagolo;
+    animation-duration: 10s;
+}
+
+@keyframes rettangolo {
+    from {
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+    to {
+        width: 200px;
+        height: 100px;
         background: red;
     }
 }
