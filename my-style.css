@@ -28,3 +28,16 @@
 .ex-2-square:active {
     width: 200px;
 }
+
+.ex-3-square:hover {
+    animation: cerchio 10s;
+}
+
+@keyframes cerchio {
+    from{
+        border-radius: 0;
+    }
+    to {
+        border-radius: 50px;
+    }
+}
