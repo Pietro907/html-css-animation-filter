@@ -21,19 +21,10 @@
 }
 
 .ex-2-square {
-    animation-name: rettagolo;
-    animation-duration: 10s;
+    transition: width;
+    transition-duration: 10s;
 }
 
-@keyframes rettangolo {
-    from {
-        width: 100px;
-        height: 100px;
-        background: red;
-    }
-    to {
-        width: 200px;
-        height: 100px;
-        background: red;
-    }
+.ex-2-square:active {
+    width: 200px;
 }
