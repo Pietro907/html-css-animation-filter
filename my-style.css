@@ -41,3 +41,243 @@
         border-radius: 50px;
     }
 }
+
+.ex-4-square:hover {
+    animation: byebye 10s;
+}
+
+@keyframes byebye {
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+.ex-5-square:hover {
+    animation: biggest 3s;
+}
+
+@keyframes biggest {
+    from{
+        width: 60px;
+        height: 60px;
+    }
+    to{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.ex-5-square:active {
+    animation: smalle 3s;
+}
+
+@keyframes smalle {
+    from{
+        width: 60px;
+        height: 60px;
+    }
+    to{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    animation: twofil 10s;
+}
+
+@keyframes twofil {
+    0%{
+        filter: grayscale(25%);
+    }
+    25%{
+        filter: grayscale(50%);
+    }
+    50%{
+        filter: saturate(25%);
+    }
+    75%{
+        filter: saturate(50%);
+    }
+    100%{
+        filter: saturate(100%);
+    }
+}
+
+.ex-8-img:hover {
+    animation: rotondo 10s;
+}
+
+@keyframes rotondo {
+    0%{
+        filter: sepia(25%);
+        border-radius: 0px;
+    }
+    25%{
+        filter: sepia(50%);
+        border-radius: 10px;
+    }
+    50%{
+        filter: contrast(25%);
+        border-radius: 20px;
+   }
+    75%{
+        filter: contrast(50%); 
+        border-radius: 30px;
+    }
+    100%{
+        filter: contrast(100%);
+        border-radius: 40px;
+    }
+}
+
+.ex-9-img:hover {
+    animation: rotondo 6s;
+}
+
+@keyframes rotondo {
+    0%{
+        filter: blur(25%);
+        border-radius: 0px;
+        transform: scale(1);
+    }
+    25%{
+        filter: blur(50%);
+        border-radius: 10px;
+        transform: scale(0.8);
+    }
+    50%{
+        filter: sepia(25%);
+        border-radius: 20px;
+        transform: scale(0.7);
+   }
+    75%{
+        filter: sepia(50%); 
+        border-radius: 30px;
+        transform: scale(-0.5, 0.6);
+    }
+    100%{
+        filter: sepia(100%);
+        border-radius: 40px;
+        transform: scale(2);
+    }
+}
+
+.ex-10-icon {
+    animation: rotolo 1s infinite;
+}
+
+@keyframes rotolo {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: rotolo 1s infinite;
+}
+
+@keyframes rotolo {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(270deg);
+    }
+}
+
+.ex-12-top-white {
+    animation: spacee 1s infinite;
+}
+
+@keyframes spacee {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    100%{
+        top: -10px;
+        left: 60%;
+    }
+}
+
+.ex-12-bottom-white {
+    animation: bot 1s infinite;
+}
+
+@keyframes bot {
+    0%{
+        bottom: -10px;
+        left: 60%;
+    }
+
+    100%{
+        bottom: -10px;
+        left: 10%;
+    }
+} 
+
+
+.ex-13-top-white {
+    animation: geek 1s infinite;
+}
+
+@keyframes geek
+{
+    0%
+    {
+        top: -10px;
+        left: 100%;   
+    }
+    50%
+    {
+        top: -10px;
+        left: -10%;
+    }
+    100%{
+        left: -10px;
+        top: 100%;
+    }
+   
+}
+
+.ex-13-bottom-white {
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate
+{
+    0%
+    {
+        bottom: -10px;
+        right: 100%;   
+    }
+    50%
+    {
+        bottom: -10px;
+        right: -10%;  
+    }
+
+    100%
+    {
+        bottom: 60px;
+        right: -10%;
+    }
+
+   
+}
